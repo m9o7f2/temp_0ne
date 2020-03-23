@@ -1,0 +1,61 @@
+header h2{
+    font-size: 25px;
+}
+
+header .one{
+    font-weight: 300;
+    letter-spacing: .3px;
+    color: #888;
+}
+header p {
+    width: 50%;
+    margin: 0px auto;
+    color: #adb5bd;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+section .ses{
+    border-top: 2px solid cyan;
+    border-radius: 10px;
+    box-shadow: -4px 4px 20px -11px black;
+    position: relative;    
+    padding: 25px 0px 55px;
+    margin-bottom: 20px;
+}
+
+section .ses h3{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+section .ses p{
+    font-weight: 600;
+    color: #adb5bd;
+}
+section .ses img{
+    position: absolute;
+    bottom: 20px;
+    right: 30px;
+}
+.mov{
+    margin-top: 50%;
+    transform: translate(0%,-15%);
+}
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+@media (max-width:990px){
+    .mov{
+        margin-top: auto;
+        margin-bottom:20px !important;
+        transform:none !important;
+    }
+}
+@media (max-width:767px){
+    header p{
+        width: 65%;
+    }
+    section .ses p{
+        width: 75%;
+    }
+}
